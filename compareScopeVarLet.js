@@ -7,7 +7,6 @@ console.log(numArray);  // [ 0, 1, 2 ]
 console.log(i);  // 3
 
 // the var keyword effectively makes 'i' a global variable
-
 var numbersArray = [];
 var i;  // The var keyword here effectively makes i globally available.
 for (i = 0; i < 3; i++) {
@@ -15,5 +14,16 @@ for (i = 0; i < 3; i++) {
 }
 console.log(numbersArray); 
 console.log(i);
+
+// the global value isn't alway intuitive
+var printNumTwo;
+for (var i = 0; i < 3; i++) {
+    if (i === 2) {
+        printNumTwo = function() {
+            return i;  // The expectation is that i will have a value of 2
+        }
+    }
+}
+console.log(printNumTwo());  // The value 3 is assigned to i counterintuitively...
 
 
