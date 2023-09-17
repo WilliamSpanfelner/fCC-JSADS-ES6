@@ -21,3 +21,6 @@
 var magic = function() {
     return new Date();
 }
+
+// becomes:
+const magic = () => new Date();
