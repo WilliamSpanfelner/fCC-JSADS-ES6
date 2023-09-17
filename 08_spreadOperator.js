@@ -10,4 +10,11 @@ parameters are expected*/
 // The spread operator allow us to write:
 const arr = [6, 89, 3, 45];
 const maximus = Math.max(...arr);
-console.log(maximus);  // 89
+console.log(maximus);  // 89 - Return unpacked array and only works in-place
+
+// Copy all contents of arr1 into another array arr2 using the spread operator.
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+arr2 = [];
+
+console.log(arr2);
