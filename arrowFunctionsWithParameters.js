@@ -8,3 +8,10 @@ doubler(4);
 // Muliple arguments may also be passed to an arrow function
 const multiplier = (item, multi) => item * multi;
 multiplier(4, 2);
+
+// Rewrite myConcat function to use arrow function syntax
+var myConcat = function(arr1, arr2) {
+    return arr1.concat(arr2);
+}
+
+console.log(myConcat([1, 2], [3, 4, 5]));
