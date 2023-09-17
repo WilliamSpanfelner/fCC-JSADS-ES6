@@ -16,3 +16,8 @@
     and no function body:
     const myFunc = () => "value";
 */
+
+// Rewrite the function using arrow function syntax
+var magic = function() {
+    return new Date();
+}
