@@ -8,3 +8,5 @@ const user = {
 
 // To extract the values and assign them to variables of the same name:
 const {johnDoe: {age, email}} = user;
+console.log(age, email)  // 34 johnDoe@freeCodeCamp.com
+
