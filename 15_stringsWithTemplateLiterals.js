@@ -19,6 +19,12 @@ const result = {
   function makeList(arr) {
     // Only change code below this line
     const failureItems = [];
+
+    // loop over failure values
+
+    for (const item of result.failure) {
+        console.log(item);
+    }
     // Only change code above this line
   
     return failureItems;
