@@ -3,3 +3,12 @@
  entry taking the following form */
 
 <script type="module" src="filename.js"></script>
+
+// Add a script to the HTML document of type module
+// and give it the source file fo index.js
+
+<html>
+    <body>
+
+    </body>
+</html>
