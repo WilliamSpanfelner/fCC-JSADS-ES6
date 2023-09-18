@@ -25,3 +25,13 @@ zeus.takeOff();  // prints To Jupiter! in console
 
 const atlas = new Rocket();
 atlas.launch();  // prints To the moon! in console
+
+
+// Use the class keyword and write a constructor to create 
+// the Vegetable class.
+// Only change code below this line
+
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
