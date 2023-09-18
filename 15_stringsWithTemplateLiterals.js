@@ -19,12 +19,10 @@ const result = {
   function makeList(arr) {
     // Only change code below this line
     const failureItems = [];
-
-    // loop over failure values
-
-    for (const item of result.failure) {
+    
+    for (const item of arr) {
         const failString = `<li class="text-warning">${item}</li>`;
-        console.log(failString);
+        failureItems.push(failString);
     }
     // Only change code above this line
   
