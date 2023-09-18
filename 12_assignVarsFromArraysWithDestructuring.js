@@ -1,3 +1,3 @@
 // Use Destructuring Assignment to Assign Variables from Arrays
-const [a, b] = [1, 2, 3, 4, 5, 6];
+const [a, b] = [1, 2, 3, 4, 5, 6];  // the first two elements are assigned to a and b respectively
 console.log(a, b);  // 1 2
