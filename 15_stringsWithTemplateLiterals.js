@@ -23,7 +23,8 @@ const result = {
     // loop over failure values
 
     for (const item of result.failure) {
-        console.log(item);
+        const failString = `<li class="text-warning">${item}</li>`;
+        console.log(failString);
     }
     // Only change code above this line
   
