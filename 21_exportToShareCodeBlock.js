@@ -12,3 +12,6 @@ const add = (x, y) => {
 }
 
 export { add };
+
+// Export multiple things:
+export { add, subtract };
