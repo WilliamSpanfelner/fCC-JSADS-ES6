@@ -11,7 +11,7 @@ const add = (x, y) => {
     return x + y;
 }
 
-export { add };
+// export { add };
 
 // Export multiple things:
 export { add, subtract };
@@ -20,8 +20,10 @@ export { add, subtract };
 Export both of them using the method of your choice. */
 const uppercaseString = (string) => {
     return string.toUpperCase();
-  }
+}
   
-  const lowercaseString = (string) => {
-    return string.toLowerCase()
-  }
+const lowercaseString = (string) => {
+    return string.toLowerCase();
+}
+
+export { uppercaseString, lowercaseString };
