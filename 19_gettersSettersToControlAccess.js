@@ -47,3 +47,23 @@ console.log(myTemp);  // 100 in Celsius
 myThermos.temperature = 0;
 myTemp = myThermos.temperature;
 console.log(myTemp);  // 0 in Celsius
+
+// Convert Celsius to Kelvin
+class ThermostatCK {
+    constructor(celsius) {
+        this.celsius = celsius
+    }
+    get temperature() {
+        return `${this.celsius}℃ is ${this.celsius + 273.15}K`
+    }
+    set temperature(celsius) {
+        this.celsius = celsius
+    }
+}
+
+const convertCK = new ThermostatCK(0);
+let tempCK = convertCK.temperature;
+console.log(tempCK);
+convertCK.temperature = -273.15;
+tempCK = convertCK.temperature;
+console.log(tempCK)
