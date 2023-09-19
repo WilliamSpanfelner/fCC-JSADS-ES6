@@ -15,3 +15,10 @@ export default function(x, y) {
 /* Only one value can be a default export in each 
 module or file.  The keywords var, let, or const cannot
 be used with export default. */
+
+/* the following function should be the fallback value for the 
+module. Please add the necessary code to do so. */
+
+function subtract(x, y) {
+    return x - y;
+}
