@@ -1,0 +1,1 @@
+// Handle a Fulfilled Promise with then
