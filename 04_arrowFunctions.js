@@ -21,6 +21,8 @@
 var magic = function() {
     return new Date();
 }
+console.log(magic());
 
 // becomes:
-const magic = () => new Date();
+const newMagic = () => new Date();
+console.log(newMagic());
