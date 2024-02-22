@@ -30,3 +30,4 @@ const result = {
   }
   
   const failuresList = makeList(result.failure);
+  console.log(failuresList);
