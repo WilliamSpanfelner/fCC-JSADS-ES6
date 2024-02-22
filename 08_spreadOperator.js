@@ -18,3 +18,12 @@ let arr2;
 arr2 = [...arr1];
 
 console.log(arr2);
+
+
+const a = [[1], [[2], [[3]]]];
+const b = [...a]; // Create an independent copy of a in b 
+const c = Array.prototype.concat(...a); // Create an independent copy of a in c but also expand the contents one layer deep
+
+console.log(b, "\n", c);  
+// [Array(1), Array(2)]
+// [1, Array(1), Array(1)]
